@@ -8,7 +8,7 @@
 		"speedRatioX": 3.25,
 		"speedRatioY": 1.25,
 		"smallEyes": {
-			"comment": "小眼睛",
+			"comment": "Camera View - Alt",
 			"type": "KMT_CLICK",
 			"key": "Key_Alt",
 			"pos": {
@@ -21,7 +21,7 @@
 	},
 	"keyMapNodes": [
 		{
-			"comment": "方向盘",
+			"comment": "WASD - Steering Wheel",
 			"type": "KMT_STEER_WHEEL",
 			"centerPos": {
 				"x": 0.16,
@@ -37,8 +37,8 @@
 			"downKey": "Key_S"
 		},
 		{
-			"comment": "左探头",
-			"type": "KMT_CLICK_TWICE",
+			"comment": "Left Peek",
+			"type": "KMT_CLICK",
 			"key": "Key_Q",
 			"pos": {
 				"x": 0.2,
@@ -46,8 +46,8 @@
 			}
 		},
 		{
-			"comment": "右探头",
-			"type": "KMT_CLICK_TWICE",
+			"comment": "Right Peek",
+			"type": "KMT_CLICK",
 			"key": "Key_E",
 			"pos": {
 				"x": 0.2,
@@ -65,7 +65,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "跳",
+			"comment": "Jump",
 			"type": "KMT_CLICK",
 			"key": "Key_Space",
 			"pos": {
@@ -75,7 +75,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "地图",
+			"comment": "Map",
 			"type": "KMT_CLICK",
 			"key": "Key_M",
 			"pos": {
@@ -85,7 +85,7 @@
 			"switchMap": true
 		},
 		{
-			"comment": "背包",
+			"comment": "Bag",
 			"type": "KMT_CLICK",
 			"key": "Key_Tab",
 			"pos": {
@@ -95,7 +95,7 @@
 			"switchMap": true
 		},
 		{
-			"comment": "背包",
+			"comment": "Follow/Unfollow/Jump",
 			"type": "KMT_CLICK",
 			"key": "Key_CapsLock",
 			"pos": {
@@ -105,7 +105,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "视角",
+			"comment": "Change Camera View",
 			"type": "KMT_CLICK",
 			"key": "Key_V",
 			"pos": {
@@ -115,7 +115,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "趴",
+			"comment": "ProneF",
 			"type": "KMT_CLICK",
 			"key": "Key_Z",
 			"pos": {
@@ -126,7 +126,7 @@
 		},
 		{
 			"comment": "蹲",
-			"type": "KMT_CLICK",
+			"type": "Crouch",
 			"key": "Key_C",
 			"pos": {
 				"x": 0.93,
@@ -135,7 +135,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "换弹",
+			"comment": "Reload",
 			"type": "KMT_CLICK",
 			"key": "Key_R",
 			"pos": {
@@ -145,7 +145,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "捡东西1",
+			"comment": "Pick/Open Door/ Car Get in",
 			"type": "KMT_CLICK",
 			"key": "Key_F",
 			"pos": {
@@ -155,7 +155,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "捡东西2",
+			"comment": "Car Exit / Heal",
 			"type": "KMT_CLICK",
 			"key": "Key_G",
 			"pos": {
@@ -165,7 +165,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "捡东西3",
+			"comment": "3rd Pick",
 			"type": "KMT_CLICK",
 			"key": "Key_H",
 			"pos": {
@@ -177,7 +177,7 @@
 		{
 			"comment": "捡东西3",
 			"type": "KMT_CLICK",
-			"key": "Key_H",
+			"key": "Key_J",
 			"pos": {
 				"x": 0.68,
 				"y": 0.67
@@ -185,7 +185,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "换枪1",
+			"comment": "First Gun",
 			"type": "KMT_CLICK",
 			"key": "Key_1",
 			"pos": {
@@ -195,7 +195,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "换枪2",
+			"comment": "Second Gun",
 			"type": "KMT_CLICK",
 			"key": "Key_2",
 			"pos": {
@@ -205,7 +205,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "手雷",
+			"comment": "Grendae",
 			"type": "KMT_CLICK",
 			"key": "Key_3",
 			"pos": {
@@ -215,7 +215,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "快速打药",
+			"comment": "Heal",
 			"type": "KMT_CLICK",
 			"key": "Key_4",
 			"pos": {
@@ -255,7 +255,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "车加速",
+			"comment": "Car Speed Up - Sprint Lock",
 			"type": "KMT_CLICK",
 			"key": "Key_Shift",
 			"pos": {
@@ -265,7 +265,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "投掷物菜单",
+			"comment": "Thowable Menu",
 			"type": "KMT_CLICK",
 			"key": "Key_F1",
 			"pos": {
@@ -275,7 +275,7 @@
 			"switchMap": true
 		},
 		{
-			"comment": "药物菜单",
+			"comment": "Heal Menu",
 			"type": "KMT_CLICK",
 			"key": "Key_F2",
 			"pos": {
@@ -285,7 +285,7 @@
 			"switchMap": true
 		},
 		{
-			"comment": "消息菜单",
+			"comment": "Message Menu",
 			"type": "KMT_CLICK",
 			"key": "Key_F3",
 			"pos": {
@@ -295,7 +295,7 @@
 			"switchMap": true
 		},
 		{
-			"comment": "表情菜单",
+			"comment": "Emoticon Menu",
 			"type": "KMT_CLICK",
 			"key": "Key_F4",
 			"pos": {
@@ -305,7 +305,7 @@
 			"switchMap": true
 		},
 		{
-			"comment": "开关门",
+			"comment": "Switch Door",
 			"type": "KMT_CLICK",
 			"key": "Key_X",
 			"pos": {
@@ -315,7 +315,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "舔包",
+			"comment": "Open Bag",
 			"type": "KMT_CLICK",
 			"key": "Key_T",
 			"pos": {
@@ -335,7 +335,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "开枪",
+			"comment": "Fire",
 			"type": "KMT_CLICK",
 			"key": "LeftButton",
 			"pos": {
@@ -345,7 +345,7 @@
 			"switchMap": false
 		},
 		{
-			"comment": "开镜",
+			"comment": "Aim",
 			"type": "KMT_CLICK",
 			"key": "RightButton",
 			"pos": {
