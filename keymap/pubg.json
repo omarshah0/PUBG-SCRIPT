@@ -29,7 +29,7 @@
 			},
 			"leftOffset": 0.1,
 			"rightOffset": 0.1,
-			"upOffset": 0.27,
+			"upOffset": 0.35,
 			"downOffset": 0.2,
 			"leftKey": "Key_A",
 			"rightKey": "Key_D",
@@ -41,18 +41,20 @@
 			"type": "KMT_CLICK",
 			"key": "Key_Q",
 			"pos": {
-				"x": 0.70,
-				"y": 0.07
-			}
+				"x": 0.91,
+				"y": 0.47
+			},
+			"switchMap": false
 		},
 		{
 			"comment": "Right Peek",
 			"type": "KMT_CLICK",
 			"key": "Key_E",
 			"pos": {
-				"x": 0.73,
-				"y": 0.08
-			}
+				"x": 0.86,
+				"y": 0.48
+			},
+			"switchMap": false
 		},
 		{
 			"comment": "自动跑",
