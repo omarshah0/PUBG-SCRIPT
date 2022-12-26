@@ -17,7 +17,7 @@
 			},
 			"switchMap": false
 		},
-		"speedRatio": 100
+		"speedRatio": 10
 	},
 	"keyMapNodes": [
 		{
@@ -41,8 +41,8 @@
 			"type": "KMT_CLICK",
 			"key": "Key_Q",
 			"pos": {
-				"x": 0.2,
-				"y": 0.1
+				"x": 0.70,
+				"y": 0.07
 			}
 		},
 		{
@@ -50,8 +50,8 @@
 			"type": "KMT_CLICK",
 			"key": "Key_E",
 			"pos": {
-				"x": 0.2,
-				"y": 0.2
+				"x": 0.73,
+				"y": 0.08
 			}
 		},
 		{
@@ -95,6 +95,85 @@
 			"switchMap": true
 		},
 		{
+			"comment": "Scope Zoom In",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_O",
+			"clickNodes": [
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.31,
+						"y": 0.17
+					}
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.31,
+						"y": 0.26
+					}
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.31,
+						"y": 0.17
+					}
+				}
+			]
+		},
+		{
+			"comment": "Scope Zoom Out",
+			"type": "KMT_CLICK_MULTI",
+			"key": "Key_P",
+			"clickNodes": [
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.31,
+						"y": 0.17
+					}
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.31,
+						"y": 0.51
+					}
+				},
+				{
+					"delay": 50,
+					"pos": {
+						"x": 0.31,
+						"y": 0.17
+					}
+				}
+			]
+		},
+		{
+			"comment": "Mark",
+			"type": "KMT_CLICK",
+			"key": "Key_Control",
+			"pos": {
+				"x": 0.87,
+				"y": 0.36
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Enemies Ahead",
+			"type": "KMT_DRAG",
+			"key": "Key_X",
+			"startPos": {
+				"x": 0.931,
+				"y": 0.36
+			},
+			"endPos": {
+				"x": 0.92,
+				"y": 0.20
+			}
+		},
+		{
 			"comment": "Follow/Unfollow/Jump",
 			"type": "KMT_CLICK",
 			"key": "Key_CapsLock",
@@ -125,8 +204,8 @@
 			"switchMap": false
 		},
 		{
-			"comment": "蹲",
-			"type": "Crouch",
+			"comment": "Crouch",
+			"type": "KMT_CLICK",
 			"key": "Key_C",
 			"pos": {
 				"x": 0.93,
@@ -260,7 +339,7 @@
 			"key": "Key_Shift",
 			"pos": {
 				"x": 0.8,
-				"y": 0.8
+				"y": 0.2
 			},
 			"switchMap": false
 		},
@@ -305,16 +384,6 @@
 			"switchMap": true
 		},
 		{
-			"comment": "Switch Door",
-			"type": "KMT_CLICK",
-			"key": "Key_X",
-			"pos": {
-				"x": 0.7,
-				"y": 0.7
-			},
-			"switchMap": false
-		},
-		{
 			"comment": "Open Bag",
 			"type": "KMT_CLICK",
 			"key": "Key_T",
@@ -331,6 +400,26 @@
 			"pos": {
 				"x": 0.73,
 				"y": 0.22
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Single/Burst Gun 1",
+			"type": "KMT_CLICK",
+			"key": "Key_B",
+			"pos": {
+				"x": 0.43,
+				"y": 0.83
+			},
+			"switchMap": false
+		},
+		{
+			"comment": "Single/Burst Gun 2",
+			"type": "KMT_CLICK",
+			"key": "Key_N",
+			"pos": {
+				"x": 0.54,
+				"y": 0.83
 			},
 			"switchMap": false
 		},
